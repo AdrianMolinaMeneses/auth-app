@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  URL_HOST: 'http://localhost:4000/api',
+  URL_HOST: 'https://mean-auth-test.herokuapp.com/api',
 };
