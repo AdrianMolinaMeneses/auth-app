@@ -21,7 +21,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: false })], // en true se coloca para que si se use el hash en la URL (http://localhost:4000/#/dashboard)
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
