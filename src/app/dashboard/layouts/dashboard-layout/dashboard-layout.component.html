@@ -1,1 +1,17 @@
-<p>dashboard-layout works!</p>
+<h1>Dashboard</h1>
+<hr />
+
+<h3>User</h3>
+<pre>{{ user | json }}</pre>
+
+<br />
+<span routerLink="/auth/login">Ir al LOGIN</span>
+<span routerLink="/auth/register">Ir al Registro</span>
+<br />
+<br />
+<pre>
+  {{ users | json }}
+</pre>
+<br />
+<br />
+<button (click)="onLogout()">Cerrar sesion</button>
